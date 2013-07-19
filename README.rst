@@ -3,7 +3,7 @@ django-getenv
 
 If you're using
 `django-dotenv <https://github.com/jacobian/django-dotenv>`__ to get the
-most out of your ``.env`` file, you want to use the values there in you
+most out of your ``.env`` file, you want to use the values there in your
 `Django <https://www.djangoproject.com/>`__ project's settings.
 
 It will convert boolean, integer and float values to their native Python
