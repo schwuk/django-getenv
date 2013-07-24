@@ -35,7 +35,11 @@ Then to read in your environment variables, do this:
     SECRET_KEY = env("SECRET_KEY")
 
 If you want to provide a default (in case the environment variable isn't
-set), try: ``SECRET_KEY = env("SECRET_KEY", "a_secret_key")``
+set), try:
+
+::
+
+    SECRET_KEY = env("SECRET_KEY", "a_secret_key")
 
 For best results, mix with
 `django-dotenv <https://github.com/jacobian/django-dotenv>`__ and
