@@ -1,0 +1,14 @@
+Changelog
+=========
+
+1.1 (2013-07-24)
+----------------
+
+* Marked as "5 - Production/Stable" instead of "4 - Beta"
+* Cleaned up README
+* Added CHANGES
+
+1.0 (2013-07-19)
+----------------
+
+* Initial release
