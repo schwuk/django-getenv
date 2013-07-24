@@ -3,13 +3,13 @@ from setuptools import setup
 setup(
     name = "django-getenv",
     description = "Read settings from environment variables.",
-    version = "1.0",
+    version = "1.1",
     author = "David Murphy",
     author_email = "dave@schwuk.com",
     url = "http://github.com/schwuk/django-getenv",
     py_modules = ['getenv'],
     classifiers = [
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
