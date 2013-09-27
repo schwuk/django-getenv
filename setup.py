@@ -14,5 +14,6 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.3',
     ]
 )
