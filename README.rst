@@ -1,6 +1,17 @@
 django-getenv
 =============
 
+.. image:: https://travis-ci.org/schwuk/django-getenv.png?branch=master
+    :target: https://travis-ci.org/schwuk/django-getenv 
+
+.. image:: https://pypip.in/v/django-getenv/badge.png
+    :target: https://crate.io/packages/django-getenv/
+    :alt: Latest PyPI version
+
+.. image:: https://pypip.in/d/django-getenv/badge.png
+    :target: https://crate.io/packages/django-getenv/
+    :alt: Number of PyPI downloads
+
 If you're using
 `django-dotenv <https://github.com/jacobian/django-dotenv>`__ to get the
 most out of your ``.env`` file, you want to use the values there in your
