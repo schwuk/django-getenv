@@ -2,18 +2,27 @@ import os
 import ast
 import unittest
 
+try:
+    from django.core.exceptions import ImproperlyConfigured
+except ImportError:
+    # If they aren't using django, define our own error
+    class ImproperlyConfigured(Exception): pass
 
-def env(key, default=None):
+
+def env(key, default=None, required=False):
     """
     Retrieves environment variables and returns Python natives. The (optional)
     default will be returned if the environment variable does not exist.
     """
-    value = os.environ.get(key, default)
-
     try:
+        value = os.environ[key]
         return ast.literal_eval(value)
     except (SyntaxError, ValueError):
         return value
+    except KeyError:
+        if default or not required:
+            return default
+        raise ImproperlyConfigured("Missing required environment variable '%s'" % key)
 
 
 class TestEnv(unittest.TestCase):
@@ -31,6 +40,19 @@ class TestEnv(unittest.TestCase):
         get that default back.
         """
         self.assertEqual(env("FRABJOUS", "day"), "day")
+
+    def test_missing_required_var_with_no_default(self):
+        """
+        If we specify a non-existent environment variable that's required, we get an error
+        """
+        self.assertRaises(ImproperlyConfigured, env, "FRABJOUS", required=True)
+
+    def test_missing_required_var_with_default(self):
+        """
+        If for whatever reason, we specify a non-existent environment variable that's required, but give it a
+        default we'll get that default back.
+        """
+        self.assertEqual(env("FRABJOUS", "day", required=True), "day")
 
     def test_var(self):
         """
