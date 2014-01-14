@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.2 (2014-01-14)
+----------------
+* Specify an environment variable as required, and raise ImproperlyConfigured 
+exception if not present (#2)
+
 1.1 (2013-07-24)
 ----------------
 

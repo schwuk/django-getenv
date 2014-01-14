@@ -2,7 +2,7 @@ django-getenv
 =============
 
 .. image:: https://travis-ci.org/schwuk/django-getenv.png?branch=master
-    :target: https://travis-ci.org/schwuk/django-getenv 
+    :target: https://travis-ci.org/schwuk/django-getenv
 
 .. image:: https://pypip.in/v/django-getenv/badge.png
     :target: https://crate.io/packages/django-getenv/
