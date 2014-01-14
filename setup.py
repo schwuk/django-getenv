@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name = "django-getenv",
     description = "Read settings from environment variables.",
-    version = "1.1",
+    version = "1.2",
     author = "David Murphy",
     author_email = "dave@schwuk.com",
     url = "http://github.com/schwuk/django-getenv",

@@ -5,7 +5,7 @@ django-getenv
     :target: https://travis-ci.org/schwuk/django-getenv
 
 .. image:: https://pypip.in/v/django-getenv/badge.png
-    :target: https://crate.io/packages/django-getenv/
+    :target: https://pypi.python.org/pypi/django-getenv/
     :alt: Latest PyPI version
 
 .. image:: https://pypip.in/d/django-getenv/badge.png
