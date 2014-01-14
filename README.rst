@@ -9,7 +9,7 @@ django-getenv
     :alt: Latest PyPI version
 
 .. image:: https://pypip.in/d/django-getenv/badge.png
-    :target: https://crate.io/packages/django-getenv/
+    :target: https://pypi.python.org/pypi/django-getenv/
     :alt: Number of PyPI downloads
 
 If you're using
