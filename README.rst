@@ -1,16 +1,23 @@
+=============
 django-getenv
 =============
 
+.. image:: https://badge.fury.io/py/django-getenv.png
+    :target: http://badge.fury.io/py/django-getenv
+    
 .. image:: https://travis-ci.org/schwuk/django-getenv.png?branch=master
-    :target: https://travis-ci.org/schwuk/django-getenv
-
-.. image:: https://pypip.in/v/django-getenv/badge.png
-    :target: https://pypi.python.org/pypi/django-getenv/
-    :alt: Latest PyPI version
+        :target: https://travis-ci.org/schwuk/django-getenv
 
 .. image:: https://pypip.in/d/django-getenv/badge.png
-    :target: https://pypi.python.org/pypi/django-getenv/
-    :alt: Number of PyPI downloads
+        :target: https://pypi.python.org/pypi/django-getenv
+
+A quick'n'easy way to use environment variables in your Django (and
+Python) projects.
+
+* Free software: BSD license
+
+Introduction
+------------
 
 If you're using
 `django-dotenv <https://github.com/jacobian/django-dotenv>`__ to get the

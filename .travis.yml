@@ -1,5 +1,12 @@
+# Config file for automatic testing at travis-ci.org
+
 language: python
+
 python:
   - "3.3"
   - "2.7"
-script:  python getenv.py
+  - "2.6"
+  - "pypy"
+
+# command to run tests, e.g. python setup.py test
+script: python setup.py test
