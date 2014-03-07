@@ -19,7 +19,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='django-getenv',
-    version="1.3.0",
+    version="1.3.1",
     description="Read settings from environment variables.",
     long_description=readme + '\n\n' + history,
     author="David Murphy",

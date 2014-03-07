@@ -3,6 +3,12 @@
 History
 -------
 
+1.3.1 (2014-03-07)
+++++++++++++++++++
+
+* Fix HISTORY.rst
+* Remove Python 2.6 from Travis configuration
+
 1.3.0 (2014-03-06)
 ++++++++++++++++++
 
@@ -12,7 +18,7 @@ History
 ++++++++++++++++++
 
 * Specify an environment variable as required, and raise ImproperlyConfigured 
-exception if not present (#2)
+  exception if not present (#2)
 
 1.1.0 (2013-07-24)
 ++++++++++++++++++
