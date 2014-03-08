@@ -6,10 +6,14 @@ django-getenv
     :target: http://badge.fury.io/py/django-getenv
     
 .. image:: https://travis-ci.org/schwuk/django-getenv.png?branch=master
-        :target: https://travis-ci.org/schwuk/django-getenv
+    :target: https://travis-ci.org/schwuk/django-getenv
+        
+.. image:: https://landscape.io/github/schwuk/django-getenv/master/landscape.png
+    :target: https://landscape.io/github/schwuk/django-getenv/master
+    :alt: Code Health
 
 .. image:: https://pypip.in/d/django-getenv/badge.png
-        :target: https://pypi.python.org/pypi/django-getenv
+    :target: https://pypi.python.org/pypi/django-getenv
 
 A quick'n'easy way to use environment variables in your Django (and
 Python) projects.
