@@ -27,6 +27,7 @@ setup(
     url="http://github.com/schwuk/django-getenv",
     packages=[
         'getenv',
+        'getenv.templatetags',
     ],
     package_dir={'getenv': 'getenv'},
     include_package_data=True,
