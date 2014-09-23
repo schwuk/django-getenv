@@ -63,6 +63,14 @@ set), try:
 
     SECRET_KEY = env("SECRET_KEY", "a_secret_key")
 
+You can also use getenv in a template:
+
+::
+{% load getenv %}
+
+Current path: {% getenv "PATH" %}
+
+
 For best results, mix with
 `django-dotenv <https://github.com/jacobian/django-dotenv>`__ and
 `dj-database-url <https://github.com/kennethreitz/dj-database-url>`__.
