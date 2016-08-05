@@ -63,9 +63,9 @@ set), try:
 You can also use getenv in a template:
 
 ::
-{% load getenv %}
+    {% load getenv %}
 
-Current path: {% getenv "PATH" %}
+    Current path: {% getenv "PATH" %}
 
 
 For best results, mix with
