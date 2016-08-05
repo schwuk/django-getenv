@@ -12,7 +12,7 @@ django-getenv
     :target: https://landscape.io/github/schwuk/django-getenv/master
     :alt: Code Health
 
-.. image:: https://pypip.in/d/django-getenv/badge.png
+.. image:: https://badge.fury.io/py/django-getenv.svg
     :target: https://pypi.python.org/pypi/django-getenv
 
 A quick'n'easy way to use environment variables in your Django (and
