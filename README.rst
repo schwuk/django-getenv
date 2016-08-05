@@ -2,7 +2,7 @@
 django-getenv
 =============
 
-.. image:: https://badge.fury.io/py/django-getenv.png
+.. image:: https://badge.fury.io/py/django-getenv.svg
     :target: https://pypi.python.org/pypi/django-getenv
     
 .. image:: https://travis-ci.org/schwuk/django-getenv.png?branch=master
