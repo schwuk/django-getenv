@@ -4,12 +4,10 @@
 import os
 import ast
 
-try:
-    from django.core.exceptions import ImproperlyConfigured
-except ImportError:
-    # If they aren't using django, define our own error
-    class ImproperlyConfigured(Exception):
-        pass
+# We're intentionally not using django.core.exceptions.ImproperlyConfigured
+# because it would be silently ignored by django at settings loading time.
+class ImproperlyConfigured(Exception):
+    pass
 
 
 def env(key, default=None, required=False):
