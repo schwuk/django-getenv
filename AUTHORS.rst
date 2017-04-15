@@ -11,3 +11,4 @@ Contributors
 ------------
 
 * Ben Olive <ben.olive@hireiqinc.com>
+* Stefan Foulis <stefan@foulis.ch>

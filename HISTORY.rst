@@ -3,6 +3,11 @@
 History
 -------
 
+1.3.2 (2017-04-15)
+++++++++++++++++++
+
+* Use custom ImproperlyConfigured instead of Django's (#5)
+
 1.3.1 (2014-03-07)
 ++++++++++++++++++
 
