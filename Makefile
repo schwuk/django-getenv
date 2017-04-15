@@ -38,9 +38,10 @@ coverage:
 	coverage html
 	open htmlcov/index.html
 
-release: clean
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
+release: dist
+	python setup.py sdist
+	python setup.py bdist_wheel
+	twine upload dist/*
 
 dist: clean
 	python setup.py sdist
