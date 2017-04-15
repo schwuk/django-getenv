@@ -4,4 +4,4 @@ from .env import env, ImproperlyConfigured  # noqa
 
 __author__ = 'David Murphy'
 __email__ = 'dave@schwuk.com'
-__version__ = '1.3.1'
+__version__ = '1.3.2'
