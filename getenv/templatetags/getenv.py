@@ -7,7 +7,7 @@ register = template.Library()
 def getenv(envvar, default=''):
 
     """ Return an environment variable for use in a template. """
-    """ If environment variable doesn't exists return a default value """
+    """ If environment variable doesn't exist return a default value """
 
     return env(envvar) or default
 
